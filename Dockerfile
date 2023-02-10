@@ -7,7 +7,6 @@ COPY ./extraction_app/requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
 RUN cd /opt/
-RUN scrapy startproject rates_parser
 
 # Copy files to working directory
 COPY ./extraction_app /opt/extraction_app
