@@ -27,6 +27,9 @@ Thus, the data is stored in two tables: single_season_stats and regular_season_r
 
 Airflow:      http://127.0.0.1:8080/
 
+                    user: airflow
+                    password: airflow
+
 PGAdmin:      http://127.0.0.1:5050/
 
 Postgres (Main DB):
