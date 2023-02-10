@@ -101,7 +101,7 @@ services:
     environment:
       POSTGRES_USER: ${MAIN_PG_USER:-pgadmin}
       POSTGRES_PASSWORD: ${MAIN_PG_PASSWORD:-changeme}
-      POSTGRES_DB: ${MAIN_PG_DB:-ratesdb}
+      POSTGRES_DB: ${MAIN_PG_DB:-nhldb}
       PGDATA: /data/postgres
     volumes:
       - postgres:/data/postgres
